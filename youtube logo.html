@@ -1,0 +1,91 @@
+
+Mestri Himaja <himaja2852@gmail.com>
+15:28 (2 minutes ago)
+to me
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .video {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+        #menu-icon {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        #menu-icon {
+                display: block;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>YouTube Clone</h1>
+    </header>
+
+    <main>
+        <h4>Youtube Logo</h4>
+       <div id="menu-icon">&#9776;</div>
+        <a href="https://www.youtube.com/" target="_blank">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.Y6P1GkxkEoLoIRsS1wMZiwHaFj&pid=Api&P=0&h=180" alt="YouTube Logo">
+        </a>
+        <div class="search-container">
+            <form action="/search" method="get">
+                <input type="text" class="search-input" name="q" placeholder="Search...">
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </div>
+        <h2>Horror video</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QF-oyCwaArU?si=Cjo1ODsw4Ish7-Nu"  frameborder="0" allowfullscreen></iframe>
+            
+            <p>sony pix, <button id="like-button" class="like-btn" >&#128077; Like</button>
+                <button id="share-button" class="share-btn" >&lt; Share</button>
+                <strong><a href="register.html"><button type="submit">subscribe</button></a></strong></p>
+        </div>  
+    </main>
+
+    <footer>
+        <p>&copy; 2023 YouTube Clone</p>
+    </footer>
+</body>
+</html>
+
+
